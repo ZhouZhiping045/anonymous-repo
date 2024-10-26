@@ -1,4 +1,4 @@
-<div align=center><img src="doc/WorkFlow.png" width="80%"></div>
+<div align=center><img src="doc/Workflow.png" width="80%"></div>
 
 > *FidelityGPT: Correcting Decompilation Distortions with Retrieval Augmented Generation.*
 > ## Source Code Structure
