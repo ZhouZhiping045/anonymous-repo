@@ -16,9 +16,9 @@ The following is a brief introduction to the directory structure of this artifac
         - test.txt                ; test data file
 - FidelityGPT.py          ; main FidelityGPT script
 - document_processor.py   ; document processing utility
+- dynamic_semantic_intensity.py      ; Dynamic Semantic Intensity algorithm
 - embedding_retriever.py  ; script for retrieving embeddings
 - fidelity_new.c          ; RAG distortion database
-- pattern_matcher.py      ; Dynamic Semantic Intensity algorithm
 - prompt_templates.py     ; prompt templates for testing       
 - variabledependency.py   ;Variable Dependency Algorithm
 
