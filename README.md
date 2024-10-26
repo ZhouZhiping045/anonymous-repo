@@ -7,10 +7,10 @@ The following is a brief introduction to the directory structure of this artifac
 - sourcecode/          ; main source code directory
     - Evaluation/      ; folder for evaluation-related scripts and data
         - Evaluation.py          ; main evaluation script
+        - Evaluation-.py          ; additional evaluation script
         - ground_truth.txt       ; ground truth data for evaluation
         - model_output.txt       ; model output for comparison
     - output/           ; folder for outputs
-        - Evaluation2.py         ; additional evaluation script
         - ground_truth.txt       ; ground truth data for outputs
         - model_output.txt       ; output from the model
         - test_RAG_answer.txt    ; test results from RAG evaluation
