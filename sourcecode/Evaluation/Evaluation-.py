@@ -12,7 +12,7 @@ def extract_lines_with_annotations(file_content):
         match = pattern.search(line)
         if match:
             code_line = match.group(1).strip()
-            annotation = match.group(2).replace(" ", "")  # 移除注释标签中的空格
+            annotation = match.group(2).replace(" ", "") 
             lines_with_annotations.append((line_number, code_line, annotation))
         else:
             lines_with_annotations.append((line_number, line.strip(), None))
@@ -39,7 +39,7 @@ def compare_annotations(gt_lines, model_lines):
             if gt_dict[code][1] == model_dict[code][1]:
                 tp += 1
             else:
-                # 如果标签不匹配，不计算为FP或FN
+                
                 continue
         else:
             fn += 1
@@ -69,7 +69,7 @@ def compare_annotations_by_label(gt_lines, model_lines):
             if gt_annotation == model_annotation:
                 results[gt_annotation]['tp'] += 1
             else:
-                # 如果标签不匹配，不计算为FP或FN
+                
                 continue
         else:
             results[gt_annotation]['fn'] += 1
