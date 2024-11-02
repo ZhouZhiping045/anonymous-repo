@@ -29,3 +29,9 @@ The following is a brief introduction to the directory structure of this artifac
     - Experiment Result.xlsx      ; stores results related to detection and correction
     - Ground Truth.xlsx      ; contains part of the dataset for comparison
 ```
+## How to run
+```
+1. Place the decompiled functions to be processed in the testdata folder, with different functions separated by ‘/////’.
+2. Run FidelityGPT.py, and the output will be saved in the output folder.
+3. Copy the output results from the output folder to Evaluation/model_output.txt, and run Evaluation/Evaluation.py.
+```
