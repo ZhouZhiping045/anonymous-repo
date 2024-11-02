@@ -8,7 +8,7 @@ from document_processor import (
     read_queries,
     write_output
 )
-from pattern_matcher import match_patterns
+from dynamic_semantic_intensity import match_patterns
 from embedding_retriever import (
     create_embedding,
     create_vectorstore,
