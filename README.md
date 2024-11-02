@@ -21,6 +21,7 @@ The following is a brief introduction to the directory structure of this artifac
 - fidelity_new.c          ; RAG distortion database
 - prompt_templates.py     ; prompt templates for testing       
 - variabledependency.py   ;Variable Dependency Algorithm
+- correction.py   ; Decompilation code correction
 
 ```
 ## Dataset
@@ -34,4 +35,5 @@ The following is a brief introduction to the directory structure of this artifac
 1. Place the decompiled functions to be processed in the testdata folder, with different functions separated by ‘/////’.
 2. Run FidelityGPT.py, and the output will be saved in the output folder.
 3. Copy the output results from the output folder to Evaluation/model_output.txt, and run Evaluation/Evaluation.py.
+4. Copy the output results from the output folder to the testdata folder, and run correction.py
 ```
